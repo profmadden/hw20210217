@@ -15,6 +15,7 @@
 		74E0AD1225DD6629003522EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E0AD1025DD6629003522EA /* LaunchScreen.storyboard */; };
 		74E0AD1D25DD6629003522EA /* gitswifthelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0AD1C25DD6629003522EA /* gitswifthelloTests.swift */; };
 		74E0AD2825DD6629003522EA /* gitswifthelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0AD2725DD6629003522EA /* gitswifthelloUITests.swift */; };
+		74E0AD3C25DD6711003522EA /* phm-moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E0AD3B25DD6711003522EA /* phm-moon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		74E0AD2325DD6629003522EA /* gitswifthelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitswifthelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E0AD2725DD6629003522EA /* gitswifthelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitswifthelloUITests.swift; sourceTree = "<group>"; };
 		74E0AD2925DD6629003522EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E0AD3B25DD6711003522EA /* phm-moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phm-moon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				74E0AD0725DD6626003522EA /* SceneDelegate.swift */,
 				74E0AD0925DD6626003522EA /* ViewController.swift */,
 				74E0AD0B25DD6626003522EA /* Main.storyboard */,
+				74E0AD3B25DD6711003522EA /* phm-moon.png */,
 				74E0AD0E25DD6629003522EA /* Assets.xcassets */,
 				74E0AD1025DD6629003522EA /* LaunchScreen.storyboard */,
 				74E0AD1325DD6629003522EA /* Info.plist */,
@@ -233,6 +236,7 @@
 			files = (
 				74E0AD1225DD6629003522EA /* LaunchScreen.storyboard in Resources */,
 				74E0AD0F25DD6629003522EA /* Assets.xcassets in Resources */,
+				74E0AD3C25DD6711003522EA /* phm-moon.png in Resources */,
 				74E0AD0D25DD6626003522EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CW465Y3232;
 				INFOPLIST_FILE = gitswifthello/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CW465Y3232;
 				INFOPLIST_FILE = gitswifthello/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
